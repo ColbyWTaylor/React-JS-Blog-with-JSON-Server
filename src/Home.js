@@ -18,7 +18,7 @@ const Home = () => {
     },
   ]);
 
-  return <BlogList blogs={blogs} />;
+  return <BlogList blogs={blogs} title={"All Blog Posts"} />;
 };
 
 export default Home;
