@@ -12,6 +12,7 @@ const Home = () => {
   };
 
   useEffect(() => {
+    // npx json-server --watch data/db.json --port 8000  <<<< in new port to avoid conflict with port running node
     fetch("http://localhost:8000/blogs")
       .then((res) => {
         return res.json();
