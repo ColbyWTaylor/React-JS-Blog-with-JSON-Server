@@ -11,6 +11,12 @@
       "body": "fluff n stuff",
       "author": "Luigi",
       "id": 2
+    },
+    {
+      "title": "Third Blog",
+      "body": "rando commando",
+      "author": "Bowser",
+      "id": 3
     }
   ]
 }
