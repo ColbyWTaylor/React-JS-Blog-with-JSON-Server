@@ -1,7 +1,7 @@
-To start json-server, run:
+To start json-server (holds the data for fetch protocol):
 npx json-server --watch data/db.json --port 8000
 
-To start react project run:
+To start react project (by default runs on port 3000, so not conflicting with json-server):
 npm run start
 
 Currently includes fake loading time, create, read, and delete functions.
